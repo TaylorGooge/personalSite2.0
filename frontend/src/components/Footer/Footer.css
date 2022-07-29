@@ -1,0 +1,16 @@
+.footercontainer{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.section ul {
+    list-style: none;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 50%;
+}
