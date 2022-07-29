@@ -14,7 +14,7 @@ class BlogPage extends React.Component {
         return(
             <div className = 'general container '>
                 <NavBar/>
-                <BlogList/>
+                <BlogList />
                 <Footer />
             </div>
           

@@ -22,7 +22,7 @@ class NavBar extends React.Component{
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             {NavItems.map((index)=> (
-              <Nav.Link  className = 'navItem'href= {index.link}>{index.title}</Nav.Link>
+              <Nav.Link  className = 'navItem'href= {index.link} key={index} >{index.title}</Nav.Link>
             ))}
           </Nav>
         </Navbar.Collapse>

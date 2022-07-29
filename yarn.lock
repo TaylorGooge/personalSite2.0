@@ -1746,7 +1746,7 @@
     "@strapi/utils" "4.3.0"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@4.3.0":
+"@strapi/strapi@^4.1.8", "@strapi/strapi@4.3.0":
   "integrity" "sha512-gfz0Fr80b2dE6vrD6rYSVkmLBa2EoKKSkWoGNMvzibX0dDIyO69see2XUy8d2UE8Ku0Kq8kYLpajil+7gEhniw=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.3.0.tgz"
   "version" "4.3.0"
@@ -7045,6 +7045,11 @@
   "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.0.0.tgz"
   "version" "5.0.0"
 
+"node-bin-setup@^1.0.0":
+  "integrity" "sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog=="
+  "resolved" "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.1.0.tgz"
+  "version" "1.1.0"
+
 "node-fetch@^2.6.1", "node-fetch@2.6.7":
   "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
   "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
@@ -7122,6 +7127,13 @@
     "cron-parser" "^3.5.0"
     "long-timeout" "0.1.1"
     "sorted-array-functions" "^1.3.0"
+
+"node@^16.16.0":
+  "integrity" "sha512-I0NJaiQZ443wBqHUfIOx/EjdAO3uP1frg96pLEvrTv9tMyVDgSURYX1x69lNTLaJAF4pCifRwCHEFubN3/K/iQ=="
+  "resolved" "https://registry.npmjs.org/node/-/node-16.16.0.tgz"
+  "version" "16.16.0"
+  dependencies:
+    "node-bin-setup" "^1.0.0"
 
 "nodemailer-fetch@1.6.0":
   "integrity" "sha512-P7S5CEVGAmDrrpn351aXOLYs1R/7fD5NamfMCHyi6WIkbjS2eeZUB/TkuvpOQr0bvRZicVqo59+8wbhR3yrJbQ=="
@@ -9135,6 +9147,11 @@
   "integrity" "sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.1.1.tgz"
   "version" "3.1.1"
+
+"strapi-plugin-url-alias@^1.0.0-beta.3":
+  "integrity" "sha512-q15ZIJlFAF+eIfhwp6p0Tq41dJJRokRmyfRGQfnbeD593fK3V4mNvxj3tn6icNRbC0siMMb/j63UCYjk9PO9iw=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-url-alias/-/strapi-plugin-url-alias-1.0.0-beta.3.tgz"
+  "version" "1.0.0-beta.3"
 
 "strapi-utils@^3.6.10":
   "integrity" "sha512-VpV9A9nqA4mkgUtlRNOMt0s1eCu0y6jKZ39Og8opTvxVud/aAnBKlDk7WaU70Mea/NtiPwUb9/fOLh7SAnOD9Q=="

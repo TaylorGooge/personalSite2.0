@@ -1,7 +1,7 @@
 import * as React from 'react';
 import NavBar from "../components/Navbar/NavBar"
 import Footer from "../components/Footer/Footer"
-import BlogSingle from "../components/BlogSingle/BlogSingle"
+import GetId from "../components/GetID/GetID"
 
 class BlogSinglePage extends React.Component {
     constructor(props){
@@ -15,7 +15,7 @@ class BlogSinglePage extends React.Component {
         return(
             <div className = 'general container '>
                 <NavBar/>
-                <BlogSingle />
+                <GetId />
                 <Footer />
             </div>
           

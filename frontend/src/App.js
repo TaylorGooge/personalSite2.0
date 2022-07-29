@@ -23,8 +23,9 @@ function App() {
           <Route path="/blog" element={ <BlogPage />} />
           <Route path="/about" element={ <AboutPage />} />
           <Route path="/faq" element={ <FAQPage />} />
-          <Route path="/blogpost" element={ <BlogSinglePage />} />
-    
+          <Route path="/blogpost" element={ <BlogSinglePage />} >
+            <Route path=":blogId" element={<BlogSinglePage />} />
+          </Route>
         </Routes>
     </BrowserRouter>
     </div>
