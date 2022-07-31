@@ -2,21 +2,21 @@ export const NavItems = [
     {
         title: "Home",
         link: "/",
-        class: 'nav-link',
+        class: 'navLink',
     },
     {
         title:"Blog",
         link: '/blog',
-        class:'nav-link',
+        class:'navLink',
     }, 
     {
         title: 'About',
         link:'/about',
-        class:'nav-link',
+        class:'navLink',
     },
     {
         title: 'FAQ',
         link:'faq',
-        class:'nav-link',
+        class:'navLink',
     }
 ]

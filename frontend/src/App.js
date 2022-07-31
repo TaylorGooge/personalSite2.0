@@ -9,9 +9,7 @@ import React from "react";
 
 import {
   BrowserRouter, Routes,
-  Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {

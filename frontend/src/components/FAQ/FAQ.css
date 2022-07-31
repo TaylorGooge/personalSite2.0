@@ -1,0 +1,19 @@
+.faq-items {
+    padding-top: 20px;
+}
+
+.faq-items > h2 {
+    text-align: center;
+}
+
+.FAQ-q > button{
+    font-size: 38px ;
+}
+
+.accordion-body > p {
+    font-size: 24px;
+}
+
+* {
+    font-family: Mulish;
+}

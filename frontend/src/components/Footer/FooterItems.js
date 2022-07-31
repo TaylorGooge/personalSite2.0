@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTwitterSquare, faFacebookSquare, faInstagramSquare,faTiktok } from '@fortawesome/free-brands-svg-icons' 
 import Button from 'react-bootstrap/Button';
-import {Link} from 'react-router-dom'
 
 export const FooterItems = {
-    logo: './IMG/Footer/logo.png',
-    email:  <Button variant="secondary" onClick={(e) => {e.preventDefault(); window.location.href= 'mailto:test@gmail.com'}}>Email Buisness </Button>,
+    logo: 'https://tgooge.s3.amazonaws.com/download.jpeg',
+    email:  <Button className ='footer-button' variant="secondary" onClick={(e) => {e.preventDefault(); window.location.href= 'mailto:test@gmail.com'}}>Contact Us </Button>,
     addressee: 'Business',
     address: '123 Street',
     city: 'Anywhere',

@@ -2,6 +2,7 @@ import * as React from 'react';
 import NavBar from "../components/Navbar/NavBar"
 import Footer from "../components/Footer/Footer"
 import Hero from "../components/Hero/Hero"
+import Container from 'react-bootstrap/Container'
 
 class HomePage extends React.Component {
     constructor(props){
@@ -13,11 +14,11 @@ class HomePage extends React.Component {
     
     render(){
         return(
-            <div className = 'general container '>
+            <Container fluid>
                 <NavBar/>
                 <Hero/>
                 <Footer />
-            </div>
+            </Container>
           
             
         )

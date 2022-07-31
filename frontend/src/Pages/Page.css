@@ -1,0 +1,17 @@
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+* {
+    font-family: Hind;
+}
+
+p{
+    font-family: Hind;
+}
+
+.blogList-div{
+    background-color:#EDEDE9;
+}
+

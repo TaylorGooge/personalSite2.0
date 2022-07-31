@@ -9,7 +9,7 @@ class Hero extends React.Component{
 
           <section class="top-banner-section">
             <div class="banner-image-div">
-              <img class="banner-image" src="IMG/HomePage/1.jpeg" alt="Banner" />
+              <img class="banner-image" src="https://tgooge.s3.amazonaws.com/pexels-skyler-ewing-12889858.jpg" alt="Banner" />
             </div>
             <div class="banner-overlay-div"></div>
             <div class="banner-text-div">
@@ -17,8 +17,8 @@ class Hero extends React.Component{
                 <p class="banner-h1-text">I am John Doe</p>
                 <p class="banner-body-text">And I'm a Photographer</p>
                 <p class="banner-btn">
-                <Link to = "/portfolio">
-                  <Button variant="secondary" > See my work </Button>
+                <Link to = "#">
+                  <Button variant="secondary"> See my work </Button>
                 </Link>
                 </p>
               </span>

@@ -2,6 +2,7 @@ import * as React from 'react';
 import NavBar from "../components/Navbar/NavBar"
 import Footer from "../components/Footer/Footer"
 import GetId from "../components/GetID/GetID"
+import Container from 'react-bootstrap/Container'
 
 class BlogSinglePage extends React.Component {
     constructor(props){
@@ -13,11 +14,11 @@ class BlogSinglePage extends React.Component {
     
     render(){
         return(
-            <div className = 'general container '>
+            <Container fluid>
                 <NavBar/>
                 <GetId />
                 <Footer />
-            </div>
+            </Container>
           
             
         )

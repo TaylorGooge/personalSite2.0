@@ -7,7 +7,9 @@
     align-content: center;
     justify-content: center;
 }
-  
+.banner-h1-text, .banner-body-text{
+    font-family: Mulish;
+}
 .banner-image-div {
       grid-area: 1 / 1 / 2 / 2;
 }
@@ -50,17 +52,19 @@ margin-right: 15px;
   
 
 .banner-h1-text {
-font-size: calc(10pt + 0.15vw);
+font-size: calc(20pt + 0.15vw);
 letter-spacing: 0.05em;
 font-weight: bolder;
 text-transform: uppercase;
 color: white;
+font-family: Taviraj;
 }
   
 .banner-body-text {
-font-size: calc(10pt + 0.15vw);
+font-size: calc(16pt + 0.15vw);
 margin-top: 0.5em;
 color: white;
 text-decoration: none;
+font-family: Taviraj;
 }
     

@@ -1,6 +1,8 @@
 import * as React from 'react';
 import NavBar from "../components/Navbar/NavBar"
 import Footer from "../components/Footer/Footer"
+import Container from 'react-bootstrap/Container'
+import "./Page.css"
 
 class AboutPage extends React.Component {
     constructor(props){
@@ -12,11 +14,11 @@ class AboutPage extends React.Component {
     
     render(){
         return(
-            <div className = 'general container '>
+            <Container fluid>
                 <NavBar/>
                
                 <Footer />
-            </div>
+            </Container>
           
             
         )

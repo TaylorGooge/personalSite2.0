@@ -7,6 +7,8 @@ import Figure from 'react-bootstrap/Figure'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
+import "./BlogSingle.css"
+
 
 
 class BlogSingle extends React.Component {
@@ -16,6 +18,9 @@ class BlogSingle extends React.Component {
             data: [],
             isLoaded: false
         }
+    }
+    formatMyDate(value, locale = 'en-US') {
+        return new Date(value).toLocaleDateString(locale);
     }
     componentDidMount(){
         let blogId = this.props.id
@@ -42,20 +47,20 @@ class BlogSingle extends React.Component {
             return <div />
         }
         return(
-            <Container className="mt-5">
+            <Container className="mt-5" fluid>
                 <Row>
                     <Col className="lg-8">
                         <article>
                             <header className="mb-4">
                                 <h1 className="fw-bolder mb-1"> {this.state.data.attributes.Title}  </h1>
-                                <div className="text-muted fst-italic mb-2">{this.state.data.attributes.publishedAt}</div>
+                                <div className="text-muted fst-italic mb-2">{this.formatMyDate(this.state.data.attributes.publishedAt)}</div>
                             </header>
                             <Figure className= "mb-4">
                                 <img className="img-fluid rounded" src="" alt=""></img>
                             </Figure>
-                            <section className="mb-5">
+                            <Container fluid className="mb-5">
                                     <ReactMarkdown children={this.state.data.attributes.Content} remarkPlugins={[remarkGfm]}  rehypePlugins={[rehypeRaw]} />
-                            </section>
+                            </Container>
                         </article>
                     </Col>
                 </Row>

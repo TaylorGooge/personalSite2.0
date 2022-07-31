@@ -38,6 +38,12 @@
     "Slug": {
       "type": "uid",
       "targetField": "Title"
+    },
+    "image": {
+      "displayName": "Image Field",
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image-field"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_image_image_fields",
+  "info": {
+    "displayName": "Image Field"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

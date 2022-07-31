@@ -1,5 +1,6 @@
 const baseUrl = process.env.REACT_APP_PUBLIC_BASE_URL
 const appToken = process.env.REACT_APP_STRAPI_TOKEN
+
 async function fetchQuery(path, params = null) {
     let url
     if (params !== null) {
